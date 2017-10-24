@@ -237,6 +237,7 @@ def check_comment_for_animal(comment, reddit):
     botengine('crab', '\scrabs?\s', reddit, CRAB_FACTS, comment)
     botengine('crocodile', '\scrocodiles?\s', reddit, CROCODILE_FACTS, comment)
     botengine('cuttlefish', '\scuttlefish(es)?\s', reddit, CUTTLEFISH_FACTS, comment)
+    botengine('dhole', '\sdholes?\s', reddit, DHOLE_FACTS, comment)
     botengine('dingo', '\sdingos?\s', reddit, DINGO_FACTS, comment)
     botengine('dolphin', '\sdolphins?\s', reddit, DOLPHIN_FACTS, comment)
     # botengine('dragon', '\sdragons?\s', reddit, DRAGON_FACTS, comment)   Disabled because this was only a temp feature during Game of Thrones season. Dragons aren't real.
@@ -740,6 +741,21 @@ CUTTLEFISH_FACTS = (
     "The largest cuttlefish is the Australian giant cuttlefish, which is the size and shape of an American football.",
     "Cuttlefish have W shaped eyelids so they can see in front of them and behind them at the same time.",
     )
+
+
+DHOLE_FACTS = (
+	'The dhole is classified with wolves, coyotes, jackals, and foxes in the Canidae family.',
+	'Dholes have only two molars on each side of their lower jaw.',
+	'Dholes are found in eastern and southern Asia.',
+	'A dholes territory can be up to 34 square miles (88 square kilometers).',
+	'Dholes are able to jump 7 feet in the air!',
+	'Dholes are monogamous animals, only one couple in the pack mate.',
+	'Dholes can survive only 10 years in the wild and reach sexual maturity at age 3.',
+	'Dholes have a variety of communication skills, they whistle, scream, growl and cluck as a form of communication.',
+	'Dholes are excellent swimmers.',
+	'There are 10 subspecies of the dhole.',
+        )
+
 
 DINGO_FACTS = (
     'Dingoes actually originate from Southeast Asia, where they can still be found today.',
@@ -2247,6 +2263,7 @@ ALL_FACTS = (
     CRAB_FACTS,
     CROCODILE_FACTS,
     CUTTLEFISH_FACTS,
+    DHOLE_FACTS,
     DINGO_FACTS,
     DOLPHIN_FACTS,
     DUGONG_FACTS,
